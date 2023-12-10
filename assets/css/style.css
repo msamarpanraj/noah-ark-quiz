@@ -208,6 +208,14 @@ body {
     font-size: larger;
 }
 
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
 /* Media query for screens that are 600px wide or less */
 @media (max-width: 600px) {
     #content {

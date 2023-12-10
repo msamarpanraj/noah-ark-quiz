@@ -198,4 +198,16 @@ body {
         padding: 10px;
         /* Adjust padding for smaller screens */
     }
+
+    .options-container {
+        flex-direction: column;
+        /* Stack options vertically */
+    }
+
+    .navigation button {
+        width: auto;
+        /* Adjust button width to fit content */
+        padding: 8px;
+        /* Adjust padding for smaller buttons */
+    }
 }

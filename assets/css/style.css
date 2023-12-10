@@ -176,6 +176,20 @@ body {
     justify-content: center;
 }
 
+/* navigation button styles */
+.navigation button {
+    width: 100px;
+    /* Fixed width for buttons */
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+    /* Rounded borders for buttons */
+    cursor: pointer;
+    background-color: orange;
+    font-weight: bold;
+
+}
+
 /* Media query for screens that are 600px wide or less */
 @media (max-width: 600px) {
     #content {

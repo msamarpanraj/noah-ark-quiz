@@ -310,3 +310,18 @@ function markAnswer(selectedOption, selectedId) {
         }
     }
 }
+
+function goToNextQuestion() {
+    const totalAttempted = answered.filter((attempt) => attempt).length;
+    if (currentQuestionIndex < questions.length - 1) {
+        currentQuestionIndex++;
+        displayQuestion();
+    } else {
+        clearInterval(timerInterval);
+        document.getElementById(
+            "content"
+        ).innerHTML = `<div style="padding:10px;"><p>Quiz Ended. Your score: ${score}/${questions.length}. </p></div>
+         <div style="padding:10px;">Total Attempted Questions: ${totalAttempted}/${questions.length}</div><div>Thank you for participating!</div>
+        `;
+    }
+}

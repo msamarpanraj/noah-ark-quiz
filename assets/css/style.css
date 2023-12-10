@@ -114,3 +114,20 @@ body {
 .center {
     display: flex;
 }
+
+
+/* Intro content css */
+#content {
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    background-color: #1b1e24;
+    width: 600px;
+    opacity: 0.92;
+    padding: 40px;
+    background-color: #101416;
+    box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 26%);
+    border-radius: 30px;
+
+
+}

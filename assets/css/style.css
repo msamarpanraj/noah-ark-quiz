@@ -216,6 +216,26 @@ body {
     border-radius: 30px;
 }
 
+.question-number {
+    color: red;
+    font-size: 1.2em;
+}
+
+.timer-container {
+    display: flex;
+    align-items: center;
+}
+
+.timer-container img {
+    width: 30px;
+    /* Adjust size as needed */
+    margin-right: 10px;
+}
+
+.timer-container span {
+    font-size: 1.2em;
+}
+
 /* Media query for screens that are 600px wide or less */
 @media (max-width: 600px) {
     #content {

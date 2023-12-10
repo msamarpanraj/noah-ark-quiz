@@ -203,3 +203,110 @@ let currentQuestionIndex = 0;
 let timerInterval;
 let score = 0;
 let answered = new Array(questions.length).fill(false);
+
+function displayQuestion() {
+    clearInterval(timerInterval); // Clear any existing timer
+
+    // Start a new timer
+    const question = questions[currentQuestionIndex];
+    let optionsHtml = question.options
+        .map(
+            (option, index) =>
+                `<label class="option" for="option${index}">
+            <input type="radio" name="option" id="option${index}" value="${option}" ${answered[currentQuestionIndex] ? "disabled" : ""
+                }>
+            ${option}
+        </label>`
+        )
+        .join("");
+
+    document.getElementById("content").innerHTML = `
+    <div class="quiz-header" style="background-color:white; padding:10px;">
+        <div class="question-number" style="font-weight:bold; color: #000; margin-bottom: 10px;">Question ${currentQuestionIndex + 1
+        }/${questions.length}</div>
+        <div class="timer-container">
+            <img src="assets/images/timer.svg" alt="Timer" />
+            <span id="timerText"></span>
+        </div>
+    </div>
+    <div class="question">${question.question}</div>
+    <div class="options-container">${optionsHtml}</div>
+    <div class="navigation">
+        <button id="prevBtn">Prev</button>
+        <button id="nextBtn">Next</button>
+    </div>`;
+    startTimer();
+
+    setUpNavigationButtons();
+    requestAnimationFrame(() => {
+        setUpOptionListeners();
+    });
+}
+function startTimer() {
+    clearInterval(timerInterval); // Ensure any existing timer is cleared
+
+    let timeLeft = 15; // 15 seconds for each question
+    updateTimerDisplay(timeLeft); // Update timer display initially
+
+    timerInterval = setInterval(function () {
+        timeLeft -= 1;
+        updateTimerDisplay(timeLeft);
+
+        if (timeLeft <= 0) {
+            clearInterval(timerInterval);
+            answered[currentQuestionIndex] = true;
+
+            goToNextQuestion();
+        }
+    }, 1000);
+}
+
+function updateTimerDisplay(time) {
+    document.getElementById("timerText").innerText = time;
+}
+
+function setUpOptionListeners() {
+    const options = document
+        .getElementById("content")
+        .getElementsByTagName("input");
+    for (let option of options) {
+        option.addEventListener("change", function () {
+            markAnswer(this.value, this.id);
+        });
+    }
+}
+
+function markAnswer(selectedOption, selectedId) {
+    const correctAnswer = questions[currentQuestionIndex].answer;
+
+    // Mark the current question as answered
+    answered[currentQuestionIndex] = true;
+
+    const labels = document
+        .getElementById("content")
+        .getElementsByTagName("label");
+    const inputs = document
+        .getElementById("content")
+        .getElementsByTagName("input");
+    for (let input of inputs) {
+        input.disabled = true;
+    }
+    for (let label of labels) {
+        const input = document.getElementById(label.htmlFor);
+        if (input.value === selectedOption) {
+            if (selectedOption === correctAnswer) {
+                label.style.backgroundColor = "green";
+                score++; // Increment score for correct answer
+                console.log(score);
+            } else {
+                label.style.backgroundColor = "red";
+            }
+        }
+
+        if (input.value === correctAnswer) {
+            label.style.backgroundColor = "green";
+        } else if (input.value !== selectedOption) {
+            label.style.backgroundColor = ""; // reset other options
+        }
+    }
+}

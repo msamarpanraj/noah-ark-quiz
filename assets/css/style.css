@@ -132,6 +132,26 @@ body {
 
 }
 
+#instructionList {
+    list-style-type: disc;
+    /* Sets disc bullets for list items */
+    padding: 20px;
+    text-align: left;
+    /* Aligns list items to the left */
+    max-width: 600px;
+    /* Sets a max width for the list */
+    margin: auto;
+    /* Centers the list in the content div */
+}
+
+#instructionList li {
+    margin: 10px 0;
+    /* Adds space between list items */
+    padding: 5px 0;
+    /* Adds padding inside list items */
+    font-size: 1em;
+    /* Adjust font size as needed */
+}
 
 /* Media query for screens that are 600px wide or less */
 @media (max-width: 600px) {

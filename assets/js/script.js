@@ -325,3 +325,40 @@ function goToNextQuestion() {
         `;
     }
 }
+
+function setUpNavigationButtons() {
+    const totalAttempted = answered.filter((attempt) => attempt).length;
+    document.getElementById("prevBtn").style.visibility =
+        currentQuestionIndex === 0 ? "hidden" : "visible";
+    document.getElementById("nextBtn").textContent =
+        currentQuestionIndex === questions.length - 1 ? "Finish" : "Next";
+
+    document.getElementById("prevBtn").onclick = function () {
+        if (currentQuestionIndex > 0) {
+            currentQuestionIndex--;
+            displayQuestion();
+        }
+    };
+
+    document.getElementById("nextBtn").onclick = function () {
+        if (currentQuestionIndex < questions.length - 1) {
+            currentQuestionIndex++;
+            displayQuestion();
+        } else {
+            clearInterval(timerInterval);
+            document.getElementById("content").innerHTML = document.getElementById(
+                "content"
+            ).innerHTML = `<div style="padding:10px;"><p>Quiz Ended. Your score: ${score}/${questions.length}. </p></div>
+      <div style="padding:10px;">Total Attempted Questions: ${totalAttempted}/${questions.length}</div>
+      <div>Thank you for participating!</div>
+     `;
+            document.getElementById("resultHeader").style.display = "inline-block";
+            document.getElementById(
+                "resultHeader"
+            ).innerText = `Your Score is ${score}/${questions.length}`;
+            document.getElementById("welcomeHeader").style.display = "none";
+            document.getElementById("quitQuizBtn").style.display = "inline-block";
+            document.getElementById("retakeQuizBtn").style.display = "inline-block";
+        }
+    };
+}

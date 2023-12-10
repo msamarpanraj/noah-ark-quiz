@@ -402,3 +402,51 @@ document
             this.textContent = "Read Instruction";
         }
     });
+
+document.getElementById("takeQuizBtn").addEventListener("click", function () {
+    this.style.display = "none"; // Hide the 'Take Quiz' button
+
+    document.getElementById("readInstructionBtn").style.display = "none"; // Hide the 'Read Instruction' button
+    displayQuestion();
+});
+document.getElementById("retakeQuizBtn").addEventListener("click", function () {
+    this.style.display = "none"; // Hide the 'reTake Quiz' button
+    answered.fill(false);
+    currentQuestionIndex = 0;
+    score = 0;
+    document.getElementById(
+        "resultHeader"
+    ).innerText = '';
+    document.getElementById("resultHeader").style.display = "none";
+    document.getElementById("welcomeHeader").style.display = "inline-block";
+    clearInterval(timerInterval);
+    document.getElementById("quitQuizBtn").style.display = "none";
+    displayQuestion();
+});
+
+//   add an event listener for the quit quiz button
+document.getElementById("quitQuizBtn").addEventListener("click", function () {
+    // Set the content back to the default view
+    document.getElementById("content").innerHTML =
+        '<div style="padding:20px;"><p >This interactive quiz will put your knowledge to the test and take you on a captivating exploration of this significant biblical narrative. Please read the instructions before you proceed to the quiz.</p></div>';
+
+    // Hide the 'Quit Quiz' button
+    this.style.display = "none";
+
+    // Show the 'Take Quiz' and 'Read Instruction' buttons
+    document.getElementById("takeQuizBtn").style.display = "inline-block";
+    document.getElementById("readInstructionBtn").style.display = "inline-block";
+    document.getElementById("retakeQuizBtn").style.display = "none";
+    document.getElementById("readInstructionBtn").textContent =
+        "Read Instruction"; // Ensure the text is set to 'Read Instruction'
+    answered.fill(false);
+    document.getElementById(
+        "resultHeader"
+    ).innerText = '';
+    document.getElementById("resultHeader").style.display = "none";
+    document.getElementById("welcomeHeader").style.display = "inline-block";
+    currentQuestionIndex = 0;
+    score = 0;
+    clearInterval(timerInterval);
+});
+

@@ -362,3 +362,43 @@ function setUpNavigationButtons() {
         }
     };
 }
+
+function goToNextQuestion() {
+    const totalAttempted = answered.filter((attempt) => attempt).length;
+    if (currentQuestionIndex < questions.length - 1) {
+        currentQuestionIndex++;
+        displayQuestion();
+    } else {
+        // Handle quiz completion
+        clearInterval(timerInterval);
+        document.getElementById(
+            "content"
+        ).innerHTML = `<div style="padding:10px;"><p>Quiz Ended. Your score: ${score}/${questions.length}. </p></div>
+    <div style="padding:10px;">Total Attempted Questions: ${totalAttempted}/${questions.length}</div>
+    <div>Thank you for participating!</div>
+   `;
+        score = 0;
+        clearInterval(timerInterval);
+    }
+}
+document
+    .getElementById("readInstructionBtn")
+    .addEventListener("click", function () {
+        if (this.textContent === "Read Instruction") {
+            // Display instructions and change button text to 'Quit Instructions'
+            document.getElementById("content").innerHTML =
+                '<ol id="instructionList">' +
+                "<li>You will have only 15 seconds per each question.</li>" +
+                "<li>Once you select your answer, it can't be undone.</li>" +
+                "<li>You can't select any option once time goes off.</li>" +
+                "<li>You can't exit from the Quiz while you're playing.</li>" +
+                "<li>You'll get points on the basis of your correct answers.</li>" +
+                "</ol>";
+            this.textContent = "Quit Instructions";
+        } else {
+            // Change back to the default start page/homepage view and change button text back to 'Read Instruction'
+            document.getElementById("content").innerHTML =
+                '<div style="padding:10px;"><p>This interactive quiz will put your knowledge to the test and take you on a captivating exploration of this significant biblical narrative. Please read the instructions before you proceed to the quiz.</p></div>';
+            this.textContent = "Read Instruction";
+        }
+    });

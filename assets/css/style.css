@@ -132,6 +132,7 @@ body {
 
 }
 
+/* css style for quiz instructions */
 #instructionList {
     list-style-type: disc;
     /* Sets disc bullets for list items */
@@ -151,6 +152,28 @@ body {
     /* Adds padding inside list items */
     font-size: 1em;
     /* Adjust font size as needed */
+}
+
+
+/* css style for quiz options */
+.options-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.option {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #6b5c5c;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
 }
 
 /* Media query for screens that are 600px wide or less */

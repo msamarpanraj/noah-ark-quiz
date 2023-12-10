@@ -72,3 +72,30 @@ body {
     width: 200px;
     /* Fixed width for both buttons */
 }
+
+#takeQuizBtn {
+    background-color: #008CBA;
+    /* Blue for Take Quiz button */
+    border-radius: 4px;
+    /* Slightly rounded corners for Take Quiz button */
+}
+
+#endQuizBtn {
+    background-color: rgb(237, 9, 9);
+    /* Blue for Take Quiz button */
+    border-radius: 4px;
+
+}
+
+#retakeQuizBtn {
+    background-color: #008CBA;
+    /* Blue for Take Quiz button */
+    border-radius: 4px;
+    /* Slightly rounded corners for Take Quiz button */
+}
+
+#quitQuizBtn {
+    background-color: rgb(237, 9, 9);
+    /* Blue for Take Quiz button */
+    border-radius: 4px;
+}

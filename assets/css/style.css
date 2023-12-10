@@ -131,3 +131,14 @@ body {
 
 
 }
+
+
+/* Media query for screens that are 600px wide or less */
+@media (max-width: 600px) {
+    #content {
+        width: 100%;
+        /* Make the content container full width */
+        padding: 10px;
+        /* Adjust padding for smaller screens */
+    }
+}

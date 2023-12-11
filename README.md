@@ -21,16 +21,22 @@ Live Web Application URL: https://msamarpanraj.github.io/noah-ark-quiz/index.htm
   - [Welcome Screen](#welcome-screen)
   - [Quiz Area](#quiz-area)
   - [Result Area](#result-area)
+  - [Features](#features)
+    - [Existing Features](#existing-features)
+    - [Features Left to Implement](#features-left-to-implement)
+  - [Testing](#testing)
+    - [Validator Testing](#validator-testing)
+    - [Unfixed Bugs](#unfixed-bugs)
   - [Technology](#technology)
     - [Languages](#languages)
-    - [Frameworks \& Tools](#frameworks--tools)
-  - [Testing](#testing)
+    - [**Tools**](#tools)
+  - [Testing](#testing-1)
     - [Accessibility](#accessibility)
     - [Lighthouse Testing](#lighthouse-testing)
-    - [Validator Testing](#validator-testing)
+    - [Validator Testing](#validator-testing-1)
   - [Manual testing](#manual-testing)
     - [Fixed bugs](#fixed-bugs)
-    - [Unfixed bugs](#unfixed-bugs)
+    - [Unfixed bugs](#unfixed-bugs-1)
     - [Supported screens and browsers](#supported-screens-and-browsers)
       - [Supported Screens](#supported-screens)
       - [Supported Browsers](#supported-browsers)
@@ -169,6 +175,71 @@ The wireframes were created using Balsamiq.
 
 ![Wireframe result area Screenshot](docs/readme-images/result-area.png)
 
+## Features
+
+The quiz is just a one page website excluding 404 page. All the functionality of website will run through JavaScript. The page has been designed to be responsive.
+
+### Existing Features
+
+- **Favicon:**
+
+  - The site has a favicon which is displays in the web browser.
+    ![Favicon](assets/favicon/android-chrome-192x192.png)
+
+- **404 page:**
+
+  - If a user goes to a non-existent page, a 404 page is displayed which directs the user back to the quiz home page.
+    ![404 error page](docs/readme-images/404-error.jpg)
+
+- **Header Text:**
+
+  - Header Text is static and stays visible on the page throughout the duration of the quiz.
+    ![Header Text](docs/readme-images/header-text.jpg)
+
+- **Intro Text:**
+
+  - Header Text displays on the welcome screen from there user can click on read instructions or take quiz.
+    ![Intro Text](docs/readme-images/intro-text.jpg)
+
+- **Instructions List:**
+
+  - List of instructions user can read before they start the quiz.
+    ![Instructions](docs/readme-images/instructions.jpg)
+
+- **Interactive Question Display:**
+
+  - Each question is presented one at a time, allowing users to focus on their current challenge. The questions are designed to cater to a range of knowledge levels, making the quiz suitable for a wide audience.
+    ![Questions](docs/readme-images/questions.jpg)
+
+- **Timed Responses:**
+
+  - Each question comes with a 15-second timer, adding an element of urgency and making the quiz more exciting.
+    ![Timer](docs/readme-images/timer.jpg)
+
+- **Answer Selection and Validation:**
+
+  - Users can select their answers from multiple-choice options. The quiz provides immediate feedback on whether the selected answer is correct or incorrect, enhancing the learning experience.
+    ![Correct Answer](docs/readme-images/correct-answer.png)
+    ![Wrong Answer](docs/readme-images/wrong-answer.png)
+
+- **Navigation Controls:**
+  - Users can navigate between questions using 'Next' and 'Previous' buttons, offering a seamless quiz experience.![nav buttons](docs/readme-images/navigation-buttons.png)
+
+### Features Left to Implement
+
+- **Quiz Customization:**
+  - Future versions could include options for users to select different difficulty levels or focus on specific aspects of the Noah's Ark story.
+
+## Testing
+
+### Validator Testing
+
+- HTML, CSS, and JavaScript code have been validated using standard validators, ensuring code quality and standard compliance.
+
+### Unfixed Bugs
+
+- no unfixed bugs
+
 ## Technology
 
 ### Languages
@@ -177,7 +248,28 @@ The wireframes were created using Balsamiq.
 - CSS
 - Javascript
 
-### Frameworks & Tools
+### **Tools**
+
+- [Git](https://git-scm.com/)
+  - Git was used for version control (commit to Git and push to GitHub).
+- [GitHub](https://github.com/)
+  - Used to store, host and deploy the project files and source code after being pushed from Git.
+- [Codeanywhere](https://www.codeanywhere.com)
+  - An online IDE linked to the GitHub repository used to write my code.
+- [Google fonts](https://fonts.google.com/)
+  - Used to compare and choose fonts.
+- [Coolors](https://coolors.co/)
+  - Used to research and choose the colour scheme by comparing and contrasting similar colours in the generator.
+- [Favicons](https://favicon.io/)
+  - Used to generate a favicon for the website title.
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+  - Used to audit the site for quality and ensure responsiveness.
+- [Websitemockupgeenerator](https://websitemockupgenerator.com/)
+  - An online tool to generate website mockup.
+- [tinypng](https://tinypng.com/)
+  - Used to reduce the size of the images for better user experience.
+- [JSHint](https://jshint.com/)
+  - Used to detect errors in the JavaScript files
 
 ## Testing
 

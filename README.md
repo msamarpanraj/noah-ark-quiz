@@ -1,8 +1,9 @@
-![screenshot](screenshot.png)
+![screenshot](docs/readme-images/website-screenshot.png)
 
-Live Web Application URL: 
+Live Web Application URL: https://msamarpanraj.github.io/noah-ark-quiz/index.html
 
 ## Table of contents:
+
 - [Project Goals](#project-goals)
   - [User Goals](#user-goals)
   - [User Goals](#user-goals-1)
@@ -37,10 +38,10 @@ Live Web Application URL:
 - [Acknowledgements](#acknowledgements)
 
 ## Project Background:
+
 The Bible Quiz Project is an interactive web application designed to educate and engage users with questions related to the Bible. This project was created as a part of a Code Institute’s Diploma in Web Application Development Course to showcase proficiency in web development technologies, including HTML, CSS, and JavaScript.
 
 Throughout the development of this game I followed the principles of User Experience (UX), including the 5 planes of Strategy, Scope, Structure, Skeleton & Surface. At all times I wanted to make sure that the website was easy to use, responsive, accessible and intuitive as well as meeting the goals and needs of the user and client.
-
 
 ### Key Factors
 
@@ -60,13 +61,14 @@ The Bible Quiz App is driven by several key factors:
 
 The Bible Quiz App is a project that blends educational significance with technical skill demonstration while ensuring an engaging and user-friendly experience for participants.
 
-
 ### Motivation
+
 The motivation behind this project is to provide a user-friendly and engaging platform for individuals interested in testing their knowledge of the Bible, specifically focusing on the story of Noah's Ark. The project aims to deliver an interactive learning experience by incorporating various features, such as user registration, limited attempts, score tracking, and time-limited questions. It serves as an educational tool for individuals looking to enhance their understanding of this significant biblical narrative.
 
 # Project Goals
 
 ## User Goals
+
 ## User Goals
 
 The Bible Quiz App is designed with a focus on fulfilling the following user goals:
@@ -85,15 +87,11 @@ The Bible Quiz App is designed with a focus on fulfilling the following user goa
 
 By aligning with these user goals, the Noah's Ark Bible Quiz App aims to fulfill the educational and engagement needs of its participants while providing an enjoyable and user-friendly learning platform.
 
-
 # User Experience
-
 
 ## Design
 
-
 ### Wireframes
-
 
 ## Technology
 
@@ -108,7 +106,7 @@ By aligning with these user goals, the Noah's Ark Bible Quiz App aims to fulfill
 ## Testing
 
 ### Accessibility
- 
+
 ### Lighthouse Testing
 
 ### Validator Testing
@@ -155,13 +153,8 @@ By aligning with these user goals, the Noah's Ark Bible Quiz App aims to fulfill
 
 ## Favicon
 
-
-
 ## Other
 
-
-
 ## Educational resources
-
 
 # Acknowledgements

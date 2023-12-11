@@ -37,7 +37,7 @@ Live Web Application URL: https://msamarpanraj.github.io/noah-ark-quiz/index.htm
     - [Functionality](#functionality)
 - [Technology](#technology)
     - [Languages](#languages)
-    - [**Tools**](#tools)
+    - [Tools](#tools)
     - [Supported screens and browsers](#supported-screens-and-browsers)
       - [Supported Screens](#supported-screens)
       - [Supported Browsers](#supported-browsers)
@@ -301,7 +301,7 @@ The quiz is just a one page website excluding 404 page. All the functionality of
 - CSS
 - Javascript
 
-### **Tools**
+### Tools
 
 - [Git](https://git-scm.com/)
   - Git was used for version control (commit to Git and push to GitHub).

@@ -7,6 +7,10 @@ Live Web Application URL: https://msamarpanraj.github.io/noah-ark-quiz/index.htm
 - [Project Goals](#project-goals)
   - [User Goals](#user-goals)
 - [User Experience](#user-experience)
+    - [Developer Goals](#developer-goals)
+    - [Visitor Goals](#visitor-goals)
+  - [User Experience](#user-experience-1)
+    - [User Stories](#user-stories)
   - [Design](#design)
     - [Wireframes](#wireframes)
   - [Technology](#technology)
@@ -60,10 +64,6 @@ The Bible Quiz App is driven by several key factors:
 
 The Bible Quiz App is a project that blends educational significance with technical skill demonstration while ensuring an engaging and user-friendly experience for participants.
 
-### Motivation
-
-The motivation behind this project is to provide a user-friendly and engaging platform for individuals interested in testing their knowledge of the Bible, specifically focusing on the story of Noah's Ark. The project aims to deliver an interactive learning experience by incorporating various features, such as user registration, limited attempts, score tracking, and time-limited questions. It serves as an educational tool for individuals looking to enhance their understanding of this significant biblical narrative.
-
 # Project Goals
 
 ## User Goals
@@ -72,19 +72,49 @@ The Bible Quiz App is designed with a focus on fulfilling the following user goa
 
 1. Users aim to engage with the Bible and the story of Noah's Ark in an educational and interactive manner. The primary goal is to enhance their knowledge of this biblical narrative.
 
-2. Participants seek opportunities to actively engage with the content, answering questions and receiving immediate feedback, which is often more engaging and effective compared to passive learning.
+2. Participants seek opportunities to actively engage with the content, answering questions and receiving immediate feedback whether the option they choose is right or wrong, which is often more engaging and effective compared to passive learning.
 
 3. Users wish to gauge and assess their knowledge of the Bible. They aim to test their understanding of the story of Noah's Ark, gain insights into their proficiency, and identify areas for improvement.
 
 4. User goals also include a user-friendly and intuitive experience. The project aims to provide an accessible and enjoyable platform for individuals with varying levels of technological familiarity.
 
-5. The tracking and reporting features are designed to motivate users to improve. Users aim to track their progress, celebrate their successes, and address areas where they can enhance their knowledge.
-
-6. Users aspire to engage in an interactive challenge. The incorporation of limited attempts, a time limit for questions, and immediate feedback adds an element of challenge and excitement to the learning experience.
+5. Users aspire to engage in an interactive challenge. The incorporation of limited attempts, a time limit for questions, and immediate feedback adds an element of challenge and excitement to the learning experience.
 
 By aligning with these user goals, the Noah's Ark Bible Quiz App aims to fulfill the educational and engagement needs of its participants while providing an enjoyable and user-friendly learning platform.
 
 # User Experience
+
+### Developer Goals
+
+As a developer, I would like the website to provide a user-friendly and engaging platform for individuals interested in testing their knowledge of the Bible, specifically focusing on the story of Noah's Ark. The project aims to deliver an interactive learning experience by incorporating various features, such as limited attempts, question tracking, and time-limited questions. It serves as an educational tool for individuals looking to enhance their understanding of this significant biblical narrative.
+
+### Visitor Goals
+
+As a visitor, I would like the website to:
+
+- be easy to understand
+- be easy to navigate
+- be able to use the quiz on a variety of devices
+- enable me to learn about Noah's Ark and test my knowledge on the significant biblical narrative.
+
+## User Experience
+
+### User Stories
+
+- First time visitor goals:
+
+  - As a first time visitor, I would like to be able to find out what the site is about.
+  - As a first time visitor, I would like to know what the quiz is about and how to play it.
+  - As a first time visitor, I would like to read the instructions of the quiz.
+  - As a first time visitor, I would like to take part in the quiz and get my results to see how well I did.
+
+- Returning visitor goals:
+
+  - As a returning visitor, I would like to try the quiz again to see if I can get a better score.
+  - As a returning visitor, I would like to be able to remember the Noah's Ark related questions that were presented and improve bible knowledge.
+
+- Frequent visitor goals:
+  - As a frequent visitor, I would like to keep testing my knowledge on Noah's Ark and get a better score each time.
 
 ## Design
 

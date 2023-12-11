@@ -57,13 +57,13 @@ Live Web Application URL: https://msamarpanraj.github.io/noah-ark-quiz/index.htm
 
 # Project Background:
 
-The Bible Quiz Project is an interactive web application designed to educate and engage users with questions related to the Bible. This project was created as a part of a Code Institute’s Diploma in Web Application Development Course to showcase proficiency in web development technologies, including HTML, CSS, and JavaScript.
+The Noah's Ark Bible Quiz Project is an interactive web application designed to educate and engage users with questions related to the Bible. This project was created as a part of a Code Institute’s Diploma in Web Application Development Course to showcase proficiency in web development technologies, including HTML, CSS, and JavaScript.
 
 Throughout the development of this quiz I followed the principles of User Experience (UX), including the 5 planes of Strategy, Scope, Structure, Skeleton & Surface. At all times I wanted to make sure that the website was easy to use, responsive, accessible and intuitive as well as meeting the goals and needs of the user and client.
 
 ### Key Factors
 
-The Bible Quiz App is driven by several key factors:
+The Noah's Ark Bible Quiz App is driven by several key factors:
 
 - **Educational Significance:** The project aims to serve as an educational resource, making it possible for users to engage with the story of Noah's Ark in a meaningful and educational manner. It supports the pursuit of biblical literacy and a deeper understanding of this iconic narrative.
 
@@ -77,13 +77,13 @@ The Bible Quiz App is driven by several key factors:
 
 - **User-Friendly Design:** The user experience and interface design are critical factors. The project prioritizes a user-friendly and intuitive design to ensure accessibility and ease of use for a broad user base, including those with varying levels of technological familiarity.
 
-The Bible Quiz App is a project that blends educational significance with technical skill demonstration while ensuring an engaging and user-friendly experience for participants.
+The Noah's Ark Bible Quiz App is a project that blends educational significance with technical skill demonstration while ensuring an engaging and user-friendly experience for participants.
 
 # Project Goals
 
 ## User Goals
 
-The Bible Quiz App is designed with a focus on fulfilling the following user goals:
+The Noah's Ark Bible Quiz App is designed with a focus on fulfilling the following user goals:
 
 1. Users aim to engage with the Bible and the story of Noah's Ark in an educational and interactive manner. The primary goal is to enhance their knowledge of this biblical narrative.
 

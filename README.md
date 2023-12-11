@@ -12,7 +12,15 @@ Live Web Application URL: https://msamarpanraj.github.io/noah-ark-quiz/index.htm
   - [User Experience](#user-experience-1)
     - [User Stories](#user-stories)
   - [Design](#design)
-    - [Wireframes](#wireframes)
+    - [Structure](#structure)
+  - [**Design Choices**](#design-choices)
+    - [**Fonts**](#fonts)
+    - [**Colours**](#colours)
+    - [**Imagery**](#imagery)
+    - [**Wireframes**](#wireframes)
+  - [Welcome Screen](#welcome-screen)
+  - [Quiz Area](#quiz-area)
+  - [Result Area](#result-area)
   - [Technology](#technology)
     - [Languages](#languages)
     - [Frameworks \& Tools](#frameworks--tools)
@@ -125,7 +133,56 @@ As a visitor, I would like the website to:
 
 ## Design
 
-### Wireframes
+### Structure
+
+The website consists of 2 pages (index.html and 404.html) which both have a consistent structure and design. The background image was taken from pixabay.com and the image is closely related to the Noah's Ark as you can see the Ark during floods. The main goal is to test a user's knowledge on Noah's Ark.
+
+## **Design Choices**
+
+### **Fonts**
+
+I have chosen Poppins font from google fonts for the website as I feel this is a clean looking font.
+
+### **Colours**
+
+The colour scheme for the website came from the background image, which was sourced from pixabay. Additional colors were choosen to compliment the website design and highlight the buttons as they are very important on the site.
+
+### **Imagery**
+
+The background image on index.html and 404.html is a picture of the Noah's Ark as this is the theme of the quiz, it features the Ark floating in the ocean. This was sourced from [Pixabay](https://pixabay.com/photos/noahs-ark-ship-animals-art-flood-3008693/)
+
+### **Wireframes**
+
+The wireframes were created using Balsamiq.
+
+## Welcome Screen
+
+![Wireframe welcome screen Screenshot](docs/readme-images/welcome.png)
+
+## Quiz Area
+
+![Wireframe quiz area Screenshot](docs/readme-images/quiz-area.png)
+
+## Result Area
+
+![Wireframe result area Screenshot](docs/readme-images/result-area.png)
+
+- Desktop view
+
+  - [Home](assets/readme_docs/wireframes/home_wide.png)
+  - [How To](assets/readme_docs/wireframes/how_to_wide.png)
+  - [Contact Page](assets/readme_docs/wireframes/contact_wide.png)
+  - [Game Play](assets/readme_docs/wireframes/play_wide.png)
+  - [Results](assets/readme_docs/wireframes/end_wide.png)
+
+- Mobile view
+  - [Home](assets/readme_docs/wireframes/home_pixel.png)
+  - [How to](assets/readme_docs/wireframes/how_to_pixel.png)
+  - [Contact Page](assets/readme_docs/wireframes/contact_pixel.png)
+  - [Game Play](assets/readme_docs/wireframes/play_pixel.png)
+  - [Results](assets/readme_docs/wireframes/end_pixel.png)
+
+[Back to contents](#contents)
 
 ## Technology
 

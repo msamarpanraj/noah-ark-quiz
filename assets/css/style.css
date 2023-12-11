@@ -68,36 +68,32 @@ body {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
-    /* Rounded corners for both buttons */
-    width: 200px;
-    /* Fixed width for both buttons */
+    /* Rounded corners for buttons */
+
 }
 
 #takeQuizBtn {
     background-color: #008CBA;
     /* Blue for Take Quiz button */
-    border-radius: 4px;
-    /* Slightly rounded corners for Take Quiz button */
+
 }
 
 #endQuizBtn {
     background-color: rgb(237, 9, 9);
-    /* Blue for Take Quiz button */
-    border-radius: 4px;
+    /* red for end Quiz button */
 
 }
 
 #retakeQuizBtn {
     background-color: #008CBA;
-    /* Blue for Take Quiz button */
-    border-radius: 4px;
-    /* Slightly rounded corners for Take Quiz button */
+    /* Blue for reTake Quiz button */
+
 }
 
 #quitQuizBtn {
     background-color: rgb(237, 9, 9);
-    /* Blue for Take Quiz button */
-    border-radius: 4px;
+    /* red for Quit Quiz button */
+
 }
 
 /* Main container css */
@@ -107,6 +103,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    margin: 20px;
 
 }
 
@@ -263,7 +260,7 @@ body {
     #content {
         width: 100%;
         /* Make the content container full width */
-        padding: 10px;
+        padding: 30px;
         /* Adjust padding for smaller screens */
     }
 
@@ -281,7 +278,7 @@ body {
 
     .quiz-header,
     .timer-container {
-        flex-direction: column;
+        flex-direction: row;
         /* Stack elements vertically */
         align-items: start;
         /* Align items to the start */

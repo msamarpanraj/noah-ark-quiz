@@ -384,7 +384,7 @@ function goToNextQuestion() {
 document
     .getElementById("readInstructionBtn")
     .addEventListener("click", function () {
-        if (this.textContent === "Read Instruction") {
+        if (this.textContent === "Read Instructions") {
             // Display instructions and change button text to 'Quit Instructions'
             document.getElementById("content").innerHTML =
                 '<ol id="instructionList">' +
@@ -396,17 +396,17 @@ document
                 "</ol>";
             this.textContent = "Quit Instructions";
         } else {
-            // Change back to the default start page/homepage view and change button text back to 'Read Instruction'
+            // Change back to the default start page/homepage view and change button text back to 'Read Instructions'
             document.getElementById("content").innerHTML =
                 '<div style="padding:10px;"><p>This interactive quiz will put your knowledge to the test and take you on a captivating exploration of this significant biblical narrative. Please read the instructions before you proceed to the quiz.</p></div>';
-            this.textContent = "Read Instruction";
+            this.textContent = "Read Instructions";
         }
     });
 
 document.getElementById("takeQuizBtn").addEventListener("click", function () {
     this.style.display = "none"; // Hide the 'Take Quiz' button
 
-    document.getElementById("readInstructionBtn").style.display = "none"; // Hide the 'Read Instruction' button
+    document.getElementById("readInstructionBtn").style.display = "none"; // Hide the 'Read Instructions' button
     displayQuestion();
 });
 document.getElementById("retakeQuizBtn").addEventListener("click", function () {
@@ -433,12 +433,12 @@ document.getElementById("quitQuizBtn").addEventListener("click", function () {
     // Hide the 'Quit Quiz' button
     this.style.display = "none";
 
-    // Show the 'Take Quiz' and 'Read Instruction' buttons
+    // Show the 'Take Quiz' and 'Read Instructions' buttons
     document.getElementById("takeQuizBtn").style.display = "inline-block";
     document.getElementById("readInstructionBtn").style.display = "inline-block";
     document.getElementById("retakeQuizBtn").style.display = "none";
     document.getElementById("readInstructionBtn").textContent =
-        "Read Instruction"; // Ensure the text is set to 'Read Instruction'
+        "Read Instructions"; // Ensure the text is set to 'Read Instructions'
     answered.fill(false);
     document.getElementById(
         "resultHeader"

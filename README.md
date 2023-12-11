@@ -6,7 +6,6 @@ Live Web Application URL: https://msamarpanraj.github.io/noah-ark-quiz/index.htm
 
 - [Project Goals](#project-goals)
   - [User Goals](#user-goals)
-  - [User Goals](#user-goals-1)
 - [User Experience](#user-experience)
   - [Design](#design)
     - [Wireframes](#wireframes)
@@ -41,7 +40,7 @@ Live Web Application URL: https://msamarpanraj.github.io/noah-ark-quiz/index.htm
 
 The Bible Quiz Project is an interactive web application designed to educate and engage users with questions related to the Bible. This project was created as a part of a Code Institute’s Diploma in Web Application Development Course to showcase proficiency in web development technologies, including HTML, CSS, and JavaScript.
 
-Throughout the development of this game I followed the principles of User Experience (UX), including the 5 planes of Strategy, Scope, Structure, Skeleton & Surface. At all times I wanted to make sure that the website was easy to use, responsive, accessible and intuitive as well as meeting the goals and needs of the user and client.
+Throughout the development of this quiz I followed the principles of User Experience (UX), including the 5 planes of Strategy, Scope, Structure, Skeleton & Surface. At all times I wanted to make sure that the website was easy to use, responsive, accessible and intuitive as well as meeting the goals and needs of the user and client.
 
 ### Key Factors
 
@@ -53,9 +52,9 @@ The Bible Quiz App is driven by several key factors:
 
 - **Skill Showcase:** This project serves as a platform to demonstrate web development skills, including proficiency in HTML, CSS, and JavaScript. It represents the ability to design and create interactive web applications, an essential skill in today's digital landscape.
 
-- **User Engagement:** User engagement is a central factor. The incorporation of limited attempts, immediate feedback, a time limit for questions, and progress tracking is aimed at motivating users to actively participate and challenge their biblical knowledge.
+- **User Engagement:** User engagement is a central factor. The incorporation of limited attempts, immediate feedback, a time limit for questions, and question tracking is aimed at motivating users to actively participate and challenge their biblical knowledge.
 
-- **Measurement and Reporting:** The application provides a means for users to measure their knowledge and progress. Users can track the number of questions answered, the number of correct answers, their overall score, and the percentage of questions they answered correctly.
+- **Measurement and Reporting:** The application provides a means for users to measure their knowledge and progress. Users can track the number of questions attempted, the number of correct answers and their overall score.
 
 - **User-Friendly Design:** The user experience and interface design are critical factors. The project prioritizes a user-friendly and intuitive design to ensure accessibility and ease of use for a broad user base, including those with varying levels of technological familiarity.
 
@@ -66,8 +65,6 @@ The Bible Quiz App is a project that blends educational significance with techni
 The motivation behind this project is to provide a user-friendly and engaging platform for individuals interested in testing their knowledge of the Bible, specifically focusing on the story of Noah's Ark. The project aims to deliver an interactive learning experience by incorporating various features, such as user registration, limited attempts, score tracking, and time-limited questions. It serves as an educational tool for individuals looking to enhance their understanding of this significant biblical narrative.
 
 # Project Goals
-
-## User Goals
 
 ## User Goals
 

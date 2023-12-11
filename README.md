@@ -145,7 +145,9 @@ I have chosen Poppins font from google fonts for the website as I feel this is a
 
 ### **Colours**
 
-The colour scheme for the website came from the background image, which was sourced from pixabay. Additional colors were choosen to compliment the website design and highlight the buttons as they are very important on the site.
+The colour scheme for the website came from the background image, which was sourced from pixabay. Additional colors were generated to compliment the website design and highlight the buttons as they are very important on the site from coolors.co
+
+![Coolors Palette](docs/readme-images/colors.png)
 
 ### **Imagery**
 
@@ -166,23 +168,6 @@ The wireframes were created using Balsamiq.
 ## Result Area
 
 ![Wireframe result area Screenshot](docs/readme-images/result-area.png)
-
-- Desktop view
-
-  - [Home](assets/readme_docs/wireframes/home_wide.png)
-  - [How To](assets/readme_docs/wireframes/how_to_wide.png)
-  - [Contact Page](assets/readme_docs/wireframes/contact_wide.png)
-  - [Game Play](assets/readme_docs/wireframes/play_wide.png)
-  - [Results](assets/readme_docs/wireframes/end_wide.png)
-
-- Mobile view
-  - [Home](assets/readme_docs/wireframes/home_pixel.png)
-  - [How to](assets/readme_docs/wireframes/how_to_pixel.png)
-  - [Contact Page](assets/readme_docs/wireframes/contact_pixel.png)
-  - [Game Play](assets/readme_docs/wireframes/play_pixel.png)
-  - [Results](assets/readme_docs/wireframes/end_pixel.png)
-
-[Back to contents](#contents)
 
 ## Technology
 

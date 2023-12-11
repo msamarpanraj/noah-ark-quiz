@@ -4,44 +4,44 @@ Live Web Application URL: https://msamarpanraj.github.io/noah-ark-quiz/index.htm
 
 ## Table of contents:
 
+- [Project Background:](#project-background)
+    - [Key Factors](#key-factors)
 - [Project Goals](#project-goals)
   - [User Goals](#user-goals)
 - [User Experience](#user-experience)
-  - [Developer Goals](#developer-goals)
-  - [Visitor Goals](#visitor-goals)
-  - [User Experience](#user-experience-1)
+    - [Developer Goals](#developer-goals)
+    - [Visitor Goals](#visitor-goals)
     - [User Stories](#user-stories)
   - [Design](#design)
     - [Structure](#structure)
-  - [**Design Choices**](#design-choices)
-    - [**Fonts**](#fonts)
-    - [**Colours**](#colours)
-    - [**Imagery**](#imagery)
-  - [**Wireframes**](#wireframes)
+  - [Design Choices](#design-choices)
+    - [Fonts](#fonts)
+    - [Colours](#colours)
+    - [Imagery](#imagery)
+  - [Wireframes](#wireframes)
     - [Welcome Screen](#welcome-screen)
     - [Quiz Area](#quiz-area)
     - [Result Area](#result-area)
-  - [Features](#features)
+- [Features](#features)
     - [Existing Features](#existing-features)
     - [Features Left to Implement](#features-left-to-implement)
-    - [Testing](#testing)
-  - [Validator Testing](#validator-testing)
+- [Testing](#testing)
     - [Lighthouse Testing](#lighthouse-testing)
+    - [Validator Testing](#validator-testing)
+      - [HTML](#html)
+      - [CSS](#css)
+      - [Javascript](#javascript)
     - [Unfixed Bugs](#unfixed-bugs)
-  - [Technology](#technology)
+  - [Manual testing](#manual-testing)
+    - [User stories tests](#user-stories-tests)
+    - [Functionality](#functionality)
+- [Technology](#technology)
     - [Languages](#languages)
     - [**Tools**](#tools)
-  - [Testing](#testing-1)
-    - [Accessibility](#accessibility)
-    - [Lighthouse Testing](#lighthouse-testing-1)
-    - [Validator Testing](#validator-testing-1)
-  - [Manual testing](#manual-testing)
-    - [Fixed bugs](#fixed-bugs)
-    - [Unfixed bugs](#unfixed-bugs-1)
     - [Supported screens and browsers](#supported-screens-and-browsers)
       - [Supported Screens](#supported-screens)
       - [Supported Browsers](#supported-browsers)
-  - [Deployment](#deployment)
+- [Deployment](#deployment)
     - [Version Control](#version-control)
     - [Steps to deply website to Github Pages](#steps-to-deply-website-to-github-pages)
     - [Deploying the Website to GitHub Pages](#deploying-the-website-to-github-pages)
@@ -55,7 +55,7 @@ Live Web Application URL: https://msamarpanraj.github.io/noah-ark-quiz/index.htm
   - [Educational resources](#educational-resources)
 - [Acknowledgements](#acknowledgements)
 
-## Project Background:
+# Project Background:
 
 The Bible Quiz Project is an interactive web application designed to educate and engage users with questions related to the Bible. This project was created as a part of a Code Institute’s Diploma in Web Application Development Course to showcase proficiency in web development technologies, including HTML, CSS, and JavaScript.
 
@@ -112,8 +112,6 @@ As a visitor, I would like the website to:
 - be able to use the quiz on a variety of devices
 - enable me to learn about Noah's Ark and test my knowledge on the significant biblical narrative.
 
-## User Experience
-
 ### User Stories
 
 - First time visitor goals:
@@ -144,23 +142,23 @@ As a visitor, I would like the website to:
 
 The website consists of 2 pages (index.html and 404.html) which both have a consistent structure and design. The background image was taken from pixabay.com and the image is closely related to the Noah's Ark as you can see the Ark during floods. The main goal is to test a user's knowledge on Noah's Ark.
 
-## **Design Choices**
+## Design Choices
 
-### **Fonts**
+### Fonts
 
 I have chosen Poppins font from google fonts for the website as I feel this is a clean looking font.
 
-### **Colours**
+### Colours
 
 The colour scheme for the website came from the background image, which was sourced from pixabay. Additional colors were generated to compliment the website design and highlight the buttons as they are very important on the site from coolors.co
 
 ![Coolors Palette](docs/readme-images/colors.png)
 
-### **Imagery**
+### Imagery
 
 The background image on index.html and 404.html is a picture of the Noah's Ark as this is the theme of the quiz, it features the Ark floating in the ocean. This was sourced from [Pixabay](https://pixabay.com/photos/noahs-ark-ship-animals-art-flood-3008693/)
 
-## **Wireframes**
+## Wireframes
 
 The wireframes were created using Balsamiq.
 
@@ -176,7 +174,7 @@ The wireframes were created using Balsamiq.
 
 ![Wireframe result area Screenshot](docs/readme-images/result-area.png)
 
-## Features
+# Features
 
 The quiz is just a one page website excluding 404 page. All the functionality of website will run through JavaScript. The page has been designed to be responsive.
 
@@ -185,6 +183,7 @@ The quiz is just a one page website excluding 404 page. All the functionality of
 - **Favicon:**
 
   - The site has a favicon which is displays in the web browser.
+
     ![Favicon](assets/favicon/android-chrome-192x192.png)
 
 - **404 page:**
@@ -231,7 +230,7 @@ The quiz is just a one page website excluding 404 page. All the functionality of
 - **Quiz Customization:**
   - Future versions could include options for users to select different difficulty levels or focus on specific aspects of the Noah's Ark story.
 
-## Testing
+# Testing
 
 ### Lighthouse Testing
 
@@ -267,36 +266,34 @@ The quiz is just a one page website excluding 404 page. All the functionality of
 
 ### User stories tests
 
-| User Story                                                            | Outcome                                                                        | Result |
-| --------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------ |
-| As a first-time visitor, I would like to find out what the site is about | As a first-time visitor, I can understand the purpose of the quiz website based on Noah's Ark Bible story | PASS    |
-| As a first-time visitor, I want to know what the quiz is about and how to play it | As a first-time visitor, I can easily discover the quiz's focus and instructions on how to play | PASS     |
-| As a first-time visitor, I want to read the instructions of the quiz   | As a first-time visitor, I can access and understand the instructions before proceeding to the quiz | PASS     |
-| As a first-time visitor, I want to take part in the quiz and get my results | As a first-time visitor, I can start the quiz, answer questions, and view my results at the end | PASS     |
-| As a first-time visitor, I am looking for an easy-to-navigate test that is responsive on all devices | As a first-time visitor, I can navigate the quiz easily, and the quiz is responsive across devices | PASS     |
-| As a first-time visitor, I want to see the question number and timer at the top of the quiz area | As a first-time visitor, I can easily track the question number and time while taking the quiz | PASS     |
-| As a first-time visitor, I want to see the question being asked along with four possible answers | As a first-time visitor, questions and answer options are presented clearly and legibly | PASS     |
-| As a first-time visitor, I want to see if the option I choose is correct by showing the answer in green and incorrect in red | As a first-time visitor, I receive visual feedback on the correctness of my selected answer | PASS     |
-| As a first-time visitor, I want to see next and previous buttons under the options to navigate through the questions | As a first-time visitor, I can easily navigate between questions using next and previous buttons | PASS     |
-| As a first-time visitor, I want to see a results window at the end once all the questions are answered | As a first-time visitor, I can view a results window summarizing my performance at the end of the quiz | PASS     |
-| As a first-time visitor, I want to restart the quiz and play again    | As a first-time visitor, I can restart the quiz after completion to play again | PASS     |
-
+| User Story                                                                                                                   | Outcome                                                                                                   | Result |
+| ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------ |
+| As a first-time visitor, I would like to find out what the site is about                                                     | As a first-time visitor, I can understand the purpose of the quiz website based on Noah's Ark Bible story | PASS   |
+| As a first-time visitor, I want to know what the quiz is about and how to play it                                            | As a first-time visitor, I can easily discover the quiz's focus and instructions on how to play           | PASS   |
+| As a first-time visitor, I want to read the instructions of the quiz                                                         | As a first-time visitor, I can access and understand the instructions before proceeding to the quiz       | PASS   |
+| As a first-time visitor, I want to take part in the quiz and get my results                                                  | As a first-time visitor, I can start the quiz, answer questions, and view my results at the end           | PASS   |
+| As a first-time visitor, I am looking for an easy-to-navigate test that is responsive on all devices                         | As a first-time visitor, I can navigate the quiz easily, and the quiz is responsive across devices        | PASS   |
+| As a first-time visitor, I want to see the question number and timer at the top of the quiz area                             | As a first-time visitor, I can easily track the question number and time while taking the quiz            | PASS   |
+| As a first-time visitor, I want to see the question being asked along with four possible answers                             | As a first-time visitor, questions and answer options are presented clearly and legibly                   | PASS   |
+| As a first-time visitor, I want to see if the option I choose is correct by showing the answer in green and incorrect in red | As a first-time visitor, I receive visual feedback on the correctness of my selected answer               | PASS   |
+| As a first-time visitor, I want to see next and previous buttons under the options to navigate through the questions         | As a first-time visitor, I can easily navigate between questions using next and previous buttons          | PASS   |
+| As a first-time visitor, I want to see a results window at the end once all the questions are answered                       | As a first-time visitor, I can view a results window summarizing my performance at the end of the quiz    | PASS   |
+| As a first-time visitor, I want to restart the quiz and play again                                                           | As a first-time visitor, I can restart the quiz after completion to play again                            | PASS   |
 
 ### Functionality
 
-| Feature | Expected Outcome | Action | Result |
-| --- | --- | --- | --- |
-| Take Quiz Button | When clicked, it initiates the quiz | Clicked the "Take Quiz" button | PASS |
-| Read Instructions Button | When clicked, it displays clear instructions on how to play the quiz | Clicked the "Read Instructions" button | PASS |
-| Wrong Answer Option | When clicked, it reveals the correct answer | Clicked the option for a wrong answer | PASS |
-| Correct Answer Option | When clicked, it confirms that the chosen answer is correct | Clicked the option for a correct answer | PASS |
-| Prev Button | When clicked, it displays the previous question  | Clicked an prev button | PASS |
-| Next Question Button | When clicked, it shows the next question and answers. | Clicked the "Next" button | PASS |
-| Finish Button | On the last question, when clicked, it shows the quiz results | Clicked the "Finish" button | PASS |
-| Page Not Found Page | Entering an incorrect web page address produces a 404 page guiding users back to the index page | Visited a non-existent page | PASS |
+| Feature                  | Expected Outcome                                                                                | Action                                  | Result |
+| ------------------------ | ----------------------------------------------------------------------------------------------- | --------------------------------------- | ------ |
+| Take Quiz Button         | When clicked, it initiates the quiz                                                             | Clicked the "Take Quiz" button          | PASS   |
+| Read Instructions Button | When clicked, it displays clear instructions on how to play the quiz                            | Clicked the "Read Instructions" button  | PASS   |
+| Wrong Answer Option      | When clicked, it reveals the correct answer                                                     | Clicked the option for a wrong answer   | PASS   |
+| Correct Answer Option    | When clicked, it confirms that the chosen answer is correct                                     | Clicked the option for a correct answer | PASS   |
+| Prev Button              | When clicked, it displays the previous question                                                 | Clicked an prev button                  | PASS   |
+| Next Question Button     | When clicked, it shows the next question and answers.                                           | Clicked the "Next" button               | PASS   |
+| Finish Button            | On the last question, when clicked, it shows the quiz results                                   | Clicked the "Finish" button             | PASS   |
+| Page Not Found Page      | Entering an incorrect web page address produces a 404 page guiding users back to the index page | Visited a non-existent page             | PASS   |
 
-
-## Technology
+# Technology
 
 ### Languages
 
@@ -327,9 +324,6 @@ The quiz is just a one page website excluding 404 page. All the functionality of
 - [JSHint](https://jshint.com/)
   - Used to detect errors in the JavaScript files
 
-
-
-
 ### Supported screens and browsers
 
 #### Supported Screens
@@ -346,28 +340,87 @@ The quiz is just a one page website excluding 404 page. All the functionality of
 - Safari
 - Opera
 
-## Deployment
+# Deployment
 
 ### Version Control
+
+The site was created using the CodeAnywhere code editor and which was connected to github. A new workspace is imported to codeanywhere from github repositories and the following is the repository which this project was associated.
+<https://github.com/msamarpanraj/noah-ark-quiz>
+
+During development, the following Git commands were utilized to manage code updates:
+
+`git add <file>` - This command added specific file(s) to the staging area for the next commit.
+`git commit -m “commit message”` - It was used to commit changes to the local repository, preparing them for the final step.
+`git push` - This command pushed all committed code to the remote repository on GitHub.
 
 ### Steps to deply website to Github Pages
 
 ### Deploying the Website to GitHub Pages
 
+- The website was deployed to GitHub Pages using the following steps:
+- In the GitHub repository, go to the "Settings" tab.
+- From the left-side menu, select 'Pages.'
+- In the source section drop-down menu, choose the 'main' branch.
+- Click 'Save.'
+- Upon successful publishing, a live link will be displayed in a green banner.
+
 ### Steps for cloning the repository
+
+1. Click on the "Code" button near the top right corner of the page.
+2. Copy the HTTPS or SSH URL that appears in the box.
+3. Open your terminal (or Git Bash on Windows) and navigate to the directory where you want to clone the repository.
+4. Type "git clone" followed by a space, and then paste the URL you copied in step 3.
+5. Press enter to run the command. This will clone the repository onto your local machine.
+6. You should now have a local copy of the GitHub repository on your machine.
 
 ### Cloning the Repository
 
+1. To clone the repository to your local machine, follow these steps:
+
+- Click on the "Code" button located near the top right corner of the page.
+- Copy the HTTPS or SSH URL displayed.
+- Open your terminal (or Git Bash on Windows) and navigate to your desired directory.
+- Enter "git clone" followed by a space, and paste the copied URL.
+- Press enter to execute the command, creating a local copy of the GitHub repository.
+
+2. You now have the GitHub repository cloned to your local machine.
+
 ### Forking the Repository
+
+1. Fork the repository by following these steps:
+
+2. Click the "Fork" button found near the top right corner of the page. This duplicates the repository into your GitHub account.
+3. After forking, you will be redirected to your forked repository.
+4. If not already done, clone the forked repository to your local machine, using the instructions mentioned earlier.
+5. Make any desired changes or additions to the code in your local copy of the repository.
+6. Commit your changes to your local repository using the "git commit" command.
+7. Push your changes to the forked repository on GitHub with the "git push" command.
+8. If you intend to contribute your changes back to the original repository, initiate a pull request. You can do this by going to the original repository's page and selecting the "New pull request" button. From there, you can compare your changes to the original repository and request a merge.
+9. You now have a forked copy of the GitHub repository in your account, allowing you to make changes and contribute back to the original repository if desired.
 
 # Credits
 
 ## Images/Content
 
+- <https://pixabay.com/photos/noahs-ark-ship-animals-art-flood-3008693/>
+- <https://pixabay.com/illustrations/jesus-christ-god-holy-spirit-4779545/>
+
 ## Favicon
+
+- [Favicon Generator](https://favicon.io)
 
 ## Other
 
+- Colour palette [Paletton](https://coolors.co)
+- SVG icons: [SVGRepo](svgrepo.com)
+- Fonts: [Google Fonts](https://fonts.google.com/)
+
 ## Educational resources
 
+- [Js30](https://javascript30.com/)
+- [W3Schools](https://www.w3schools.com/)
+- [Youtube](https://youtube.com)
+
 # Acknowledgements
+
+I successfully finished this project as part of my Portfolio Project 2 submission for the Full Stack Web Developer (eCommerce) Diploma program at the Code Institute. I extend my heartfelt appreciation to my mentors, as well as the entire Code Institute team and the supportive Slack community for their invaluable assistance and encouragement during the course of this project.

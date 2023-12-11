@@ -107,6 +107,13 @@ As a visitor, I would like the website to:
   - As a first time visitor, I would like to know what the quiz is about and how to play it.
   - As a first time visitor, I would like to read the instructions of the quiz.
   - As a first time visitor, I would like to take part in the quiz and get my results to see how well I did.
+  - I am looking for a easy to navigate test the is responsive and easy to interact with on all devices.
+  - As a first time visitor, I would like to see the question number and timer at the top of the quiz area.
+  - As a first time visitor, I would like to see question being asked along with 4 possible answers.
+  - As a first time visitor, I would like to see if the option I choose is correct by showing the answer correct answer in green and incorrect in red.
+  - As a first time visitor, I would like to see next and previous buttons under the options to navigate through the questions.
+  - As a first time visitor, I would like to see results window at the end once all the questions are answered.
+  - As a first time visitor, I would like to restart the quiz and play again.
 
 - Returning visitor goals:
 

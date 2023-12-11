@@ -7,8 +7,8 @@ Live Web Application URL: https://msamarpanraj.github.io/noah-ark-quiz/index.htm
 - [Project Goals](#project-goals)
   - [User Goals](#user-goals)
 - [User Experience](#user-experience)
-    - [Developer Goals](#developer-goals)
-    - [Visitor Goals](#visitor-goals)
+  - [Developer Goals](#developer-goals)
+  - [Visitor Goals](#visitor-goals)
   - [User Experience](#user-experience-1)
     - [User Stories](#user-stories)
   - [Design](#design)
@@ -17,22 +17,23 @@ Live Web Application URL: https://msamarpanraj.github.io/noah-ark-quiz/index.htm
     - [**Fonts**](#fonts)
     - [**Colours**](#colours)
     - [**Imagery**](#imagery)
-    - [**Wireframes**](#wireframes)
-  - [Welcome Screen](#welcome-screen)
-  - [Quiz Area](#quiz-area)
-  - [Result Area](#result-area)
+  - [**Wireframes**](#wireframes)
+    - [Welcome Screen](#welcome-screen)
+    - [Quiz Area](#quiz-area)
+    - [Result Area](#result-area)
   - [Features](#features)
     - [Existing Features](#existing-features)
     - [Features Left to Implement](#features-left-to-implement)
-  - [Testing](#testing)
-    - [Validator Testing](#validator-testing)
+    - [Testing](#testing)
+  - [Validator Testing](#validator-testing)
+    - [Lighthouse Testing](#lighthouse-testing)
     - [Unfixed Bugs](#unfixed-bugs)
   - [Technology](#technology)
     - [Languages](#languages)
     - [**Tools**](#tools)
   - [Testing](#testing-1)
     - [Accessibility](#accessibility)
-    - [Lighthouse Testing](#lighthouse-testing)
+    - [Lighthouse Testing](#lighthouse-testing-1)
     - [Validator Testing](#validator-testing-1)
   - [Manual testing](#manual-testing)
     - [Fixed bugs](#fixed-bugs)
@@ -159,19 +160,19 @@ The colour scheme for the website came from the background image, which was sour
 
 The background image on index.html and 404.html is a picture of the Noah's Ark as this is the theme of the quiz, it features the Ark floating in the ocean. This was sourced from [Pixabay](https://pixabay.com/photos/noahs-ark-ship-animals-art-flood-3008693/)
 
-### **Wireframes**
+## **Wireframes**
 
 The wireframes were created using Balsamiq.
 
-## Welcome Screen
+### Welcome Screen
 
 ![Wireframe welcome screen Screenshot](docs/readme-images/welcome.png)
 
-## Quiz Area
+### Quiz Area
 
 ![Wireframe quiz area Screenshot](docs/readme-images/quiz-area.png)
 
-## Result Area
+### Result Area
 
 ![Wireframe result area Screenshot](docs/readme-images/result-area.png)
 
@@ -232,13 +233,68 @@ The quiz is just a one page website excluding 404 page. All the functionality of
 
 ## Testing
 
+### Lighthouse Testing
+
+**Desktop**
+![Desktop Screenshot](docs/readme-images/desktop-lighthouse.jpg)
+**Mobile**
+![Mobile Screenshot](docs/readme-images/mobile-lighthouse.jpg)
+
 ### Validator Testing
 
 - HTML, CSS, and JavaScript code have been validated using standard validators, ensuring code quality and standard compliance.
 
+#### HTML
+
+- HTML validation conducted using the W3C validator of the project. The results of the testing, along with screenshots are as follows:
+  ![HTML Validation](docs/readme-images/html-validation.jpg)
+
+#### CSS
+
+- CSS validation conducted using W3C CSS Validator.
+  ![CSS Validation](docs/readme-images/css-validation.jpg)
+
+#### Javascript
+
+- Javascript validation conducted using the JShint. Few errors were detected and were resolved. Howevr one warning error was not fixed, tried multiple fixes.
+  ![JS Validation](docs/readme-images/jshint.jpg)
+
 ### Unfixed Bugs
 
-- no unfixed bugs
+- Javascript validation conducted using the JShint. Few errors were detected and were resolved. Howevr one warning error was not fixed, tried multiple fixes.
+
+## Manual testing
+
+### User stories tests
+
+| User Story                                                            | Outcome                                                                        | Result |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------ |
+| As a first-time visitor, I would like to find out what the site is about | As a first-time visitor, I can understand the purpose of the quiz website based on Noah's Ark Bible story | PASS    |
+| As a first-time visitor, I want to know what the quiz is about and how to play it | As a first-time visitor, I can easily discover the quiz's focus and instructions on how to play | PASS     |
+| As a first-time visitor, I want to read the instructions of the quiz   | As a first-time visitor, I can access and understand the instructions before proceeding to the quiz | PASS     |
+| As a first-time visitor, I want to take part in the quiz and get my results | As a first-time visitor, I can start the quiz, answer questions, and view my results at the end | PASS     |
+| As a first-time visitor, I am looking for an easy-to-navigate test that is responsive on all devices | As a first-time visitor, I can navigate the quiz easily, and the quiz is responsive across devices | PASS     |
+| As a first-time visitor, I want to see the question number and timer at the top of the quiz area | As a first-time visitor, I can easily track the question number and time while taking the quiz | PASS     |
+| As a first-time visitor, I want to see the question being asked along with four possible answers | As a first-time visitor, questions and answer options are presented clearly and legibly | PASS     |
+| As a first-time visitor, I want to see if the option I choose is correct by showing the answer in green and incorrect in red | As a first-time visitor, I receive visual feedback on the correctness of my selected answer | PASS     |
+| As a first-time visitor, I want to see next and previous buttons under the options to navigate through the questions | As a first-time visitor, I can easily navigate between questions using next and previous buttons | PASS     |
+| As a first-time visitor, I want to see a results window at the end once all the questions are answered | As a first-time visitor, I can view a results window summarizing my performance at the end of the quiz | PASS     |
+| As a first-time visitor, I want to restart the quiz and play again    | As a first-time visitor, I can restart the quiz after completion to play again | PASS     |
+
+
+### Functionality
+
+| Feature | Expected Outcome | Action | Result |
+| --- | --- | --- | --- |
+| Take Quiz Button | When clicked, it initiates the quiz | Clicked the "Take Quiz" button | PASS |
+| Read Instructions Button | When clicked, it displays clear instructions on how to play the quiz | Clicked the "Read Instructions" button | PASS |
+| Wrong Answer Option | When clicked, it reveals the correct answer | Clicked the option for a wrong answer | PASS |
+| Correct Answer Option | When clicked, it confirms that the chosen answer is correct | Clicked the option for a correct answer | PASS |
+| Prev Button | When clicked, it displays the previous question  | Clicked an prev button | PASS |
+| Next Question Button | When clicked, it shows the next question and answers. | Clicked the "Next" button | PASS |
+| Finish Button | On the last question, when clicked, it shows the quiz results | Clicked the "Finish" button | PASS |
+| Page Not Found Page | Entering an incorrect web page address produces a 404 page guiding users back to the index page | Visited a non-existent page | PASS |
+
 
 ## Technology
 
@@ -271,19 +327,8 @@ The quiz is just a one page website excluding 404 page. All the functionality of
 - [JSHint](https://jshint.com/)
   - Used to detect errors in the JavaScript files
 
-## Testing
 
-### Accessibility
 
-### Lighthouse Testing
-
-### Validator Testing
-
-## Manual testing
-
-### Fixed bugs
-
-### Unfixed bugs
 
 ### Supported screens and browsers
 

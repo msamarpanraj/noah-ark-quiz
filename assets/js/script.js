@@ -276,7 +276,7 @@ function setUpOptionListeners() {
     }
 }
 
-function markAnswer(selectedOption, selectedId) {
+function markAnswer(selectedOption) {
     const correctAnswer = questions[currentQuestionIndex].answer;
 
     // Mark the current question as answered
